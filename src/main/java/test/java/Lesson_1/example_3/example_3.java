@@ -3,7 +3,7 @@ package Lesson_1.example_3;
 public class example_3 {
 
 
-   boolean dividesByTwo(int n) {
+    boolean dividesByTwo(int n) {
         return (n % 2 == 0);
     }
 
