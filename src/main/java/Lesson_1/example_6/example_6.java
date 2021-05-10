@@ -14,3 +14,4 @@ public class example_6 {
         System.out.println(curcuit1.circuit(true, true, false, false));
     }
 }
+
