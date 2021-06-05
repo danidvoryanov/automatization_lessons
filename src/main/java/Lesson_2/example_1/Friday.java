@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_1;
 
-public class example_1 {
+public class Friday {
 
     void while0(String[] array) {
         int i = 0;
@@ -26,7 +26,7 @@ public class example_1 {
     }
 
     void for0(String[] array) {
-int a = 0;
+        int a = 0;
         for (String b : array) {
             if (a == array.length - 1) {
                 System.out.println(b + ".");
@@ -36,7 +36,7 @@ int a = 0;
     }
 
     public static void main(String[] args) {
-        example_1 gf = new example_1();
+        Friday gf = new Friday();
 
         String[] friday = {"Пятница", "это", "лучший", "день", "недели"};
 

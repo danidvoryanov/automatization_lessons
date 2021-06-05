@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_5;
 
-public class Transporting2 {
+public class Transporting {
     public static void main(String[] args) {
 
         int n = 5;
@@ -8,7 +8,7 @@ public class Transporting2 {
         int[][] a = new int[n][h];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < h; j++) {
-                a[i][j] = n*i + j;
+                a[i][j] = n * i + j;
             }
         }
 
@@ -22,7 +22,7 @@ public class Transporting2 {
         }
 
         for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < h; j++) {
+            for (int j = i + 1; j < h; j++) {
                 int temp = a[i][j];
                 a[i][j] = a[i][j];
                 a[i][j] = temp;

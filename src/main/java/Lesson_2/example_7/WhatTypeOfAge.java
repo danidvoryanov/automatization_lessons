@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_7;
 
-public class whattypeofage {
+public class WhatTypeOfAge {
     private static String whattypeofage(int age) {
         if (age >= 25 && age < 44) return "Молодой возраст";
         if (age >= 44 && age < 60) return "Средний возраст";

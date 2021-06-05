@@ -1,6 +1,5 @@
-package Lesson_2;
+package Lesson_2.example_4;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 class HelloWorld {
@@ -21,7 +20,7 @@ class HelloWorld {
 
 
     public static void main(String[] args) {
-        HelloWorld simile = new HelloWorld ();
+        HelloWorld simile = new HelloWorld();
         System.out.println(HelloWorld.simile("hello", "world"));
         System.out.println(HelloWorld.simile("ping", "pong"));
         System.out.println(HelloWorld.simile("qwer", "asdf"));

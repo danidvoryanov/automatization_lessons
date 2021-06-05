@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_3;
 
-public class example_3 {
+public class RegularExpression {
     static boolean validatenumber(String mobilenumder) {
         if (mobilenumder.length() != 16) {
             return false;
@@ -27,11 +27,13 @@ public class example_3 {
         }
         return true;
     }
-    public boolean regular(String mobilenumber){
+
+    public boolean regular(String mobilenumber) {
         return mobilenumber.matches("^\\+7\\(\\d{3}\\)\\d{3}\\-\\d{2}\\-\\d{2}$");
     }
+
     public static void main(String[] args) {
-        example_3 numbercheck = new example_3();
+        RegularExpression numbercheck = new RegularExpression();
         System.out.println(numbercheck.validatenumber("+7(910)423-73-12"));
         System.out.println(numbercheck.validatenumber("7(910)423-73-12"));
         System.out.println(numbercheck.validatenumber("89215310934"));

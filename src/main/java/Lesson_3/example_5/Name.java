@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Name {
     static final String[] nameofhuman = {"Андрей", "Петр", "Алина", "Арина", "Елена"};
-    static final String[] nameofcat = {"Гав", "Матроскин","Том","Леопольд","В сапогах"};
-    static final String[] nameofdog = {"Бим", "Рекс", "Белка","Стрелка"};
+    static final String[] nameofcat = {"Гав", "Матроскин", "Том", "Леопольд", "В сапогах"};
+    static final String[] nameofdog = {"Бим", "Рекс", "Белка", "Стрелка"};
 
     public static String getCatName() {
         Random random = new Random();

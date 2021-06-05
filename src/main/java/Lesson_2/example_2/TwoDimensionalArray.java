@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_2;
 
-public class example_2 {
+public class TwoDimensionalArray {
     void while1(int[][] array) {
         for (int p = 0; p < 8; p++) {
             for (int k = 0; k < 8; k++) {
@@ -35,7 +35,7 @@ public class example_2 {
     }
 
     public static void main(String[] args) {
-        example_2 matrix = new example_2();
+        TwoDimensionalArray matrix = new TwoDimensionalArray();
         int[][] matrix12 = new int[8][8];
 
         for (int p = 0; p < 8; p++) {

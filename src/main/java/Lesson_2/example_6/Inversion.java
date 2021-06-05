@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_6;
 
-public class inversion {
+public class Inversion {
     public static void main(String[] args) {
         int p = 3;
         int k = 5;

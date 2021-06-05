@@ -10,6 +10,7 @@ public class Human {
         this.father = father;
         this.mother = mother;
     }
+
     public Human father() {
         return father;
     }

@@ -1,6 +1,6 @@
-package Lesson_2;
+package Lesson_2.example_8;
 
-public class switcha {
+public class SwitchA {
     static String switcha(int n) {
         switch (n) {
             case 1:

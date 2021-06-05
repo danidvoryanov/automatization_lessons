@@ -24,6 +24,7 @@ public class Application {
             }
         }
     }
+
     private static Human[] greatGrandParents(Human human) {
         Human grandFather = human.father();
         Human grandMather = human.mother();
