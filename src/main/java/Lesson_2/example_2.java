@@ -2,8 +2,6 @@ package Lesson_2;
 
 public class example_2 {
     void while1(int[][] array) {
-
-
         for (int p = 0; p < 8; p++) {
             for (int k = 0; k < 8; k++) {
 
@@ -11,8 +9,6 @@ public class example_2 {
             }
             System.out.println();
         }
-
-
     }
 
     void while43(int[][] arr) {
@@ -26,8 +22,6 @@ public class example_2 {
             System.out.println();
             p++;
         }
-
-
     }
 
     void dvuhForEch(int[][] arr3) {
@@ -46,15 +40,12 @@ public class example_2 {
 
         for (int p = 0; p < 8; p++) {
             for (int k = 0; k < 8; k++) {
-                if (p % 2 == 0) matrix12[p][k] = 0;
+                if (k % 2 == 0) matrix12[p][k] = 0;
                 else matrix12[p][k] = 1;
             }
         }
-
         matrix.while1(matrix12);
         matrix.dvuhForEch(matrix12);
         matrix.while43(matrix12);
-
-
     }
 }
