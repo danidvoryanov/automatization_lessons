@@ -1,0 +1,12 @@
+Зарплатная ведомость.
+uuid: eec13611-4795-4c93-936e-2d09216c94d6
+
+Время операции: 14.09.2021 12:17:57.
+
+Список сотрудников:
+LastNameVHknDgIHSKON FirstNameIGLPchJNyhsQ, 5091 934248, 12954,45
+LastNameFgVjYgFeGJew FirstNameBQSBEvdCHIew, 1309 324425, 44221,30
+LastNameSKwOtyhTzEvI FirstNameDzOSVSUvkDUw, 5493 170677, 23075,94
+LastNameEDVMamgDJpRU FirstNamenyIIqNzgMSWq, 0126 065245, 25394,48
+LastNamejjZybPFtvoOJ FirstNamexQaofsxKutCI, 2099 759626, 16550,97
+Общая сумма: 122197,14

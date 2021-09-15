@@ -4,9 +4,64 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>at-study-java-core-3</groupId>
-    <artifactId>at-study-java-core-3</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>at-study-java-core</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <junit.version>5.7.2</junit.version>
+        <gson.version>2.8.8</gson.version>
+        <fasterxml.jackson.dataformat>2.12.5</fasterxml.jackson.dataformat>
+        <apache.poi.poi>5.0.0</apache.poi.poi>
+        <apache.poi-ooxml>5.0.0</apache.poi-ooxml>
+    </properties>
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>${fasterxml.jackson.dataformat}</version>
+        </dependency>
+
+
+
+    </dependencies>
 
     <build>
         <plugins>
@@ -20,5 +75,7 @@
             </plugin>
         </plugins>
     </build>
+
+
 
 </project>
